@@ -84,7 +84,7 @@ fun isTobogganPasswordValid(input: String): Boolean =
     }
 
 fun main() {
-    val input = readInput("Day2Input.txt")
+    val input = readInput("Day2Input.txt").lines()
 
     println("Day 2: Password Philosophy")
     val result = countValidPasswords(input)

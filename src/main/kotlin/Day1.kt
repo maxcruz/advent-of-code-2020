@@ -87,7 +87,7 @@ fun repairReportThree(list: IntArray): Int {
 }
 
 fun main() {
-    val input = readInput("Day1Input.txt").map { Integer.parseInt(it) }.toIntArray()
+    val input = readInput("Day1Input.txt").lines().map { Integer.parseInt(it) }.toIntArray()
 
     println("Day 1: Report Repair")
     val answer = repairReport(input)
